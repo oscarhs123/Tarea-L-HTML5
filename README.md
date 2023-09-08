@@ -8,4 +8,6 @@
 	- HistoriaCSS.html - incluye la breve historia de CSS
 	- HistoriaJS.html - incluye la breve historia de JavaScript
 	- Carpeta img - contiene las imagenes utilizadas para realizar las páginas
+
+- Tarea L-HTML5.pfd - es el reporte de la tarea en formto PDF
 	
