@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8">
         <title> Historia de CSS</title>
     </head>
 
     <body>
+        <header>
+            Tarea HTML5
+        </header>
+
         <h1>Contenido</h1>
 
         <div>
@@ -26,7 +30,7 @@
             </ul>
         </div>
 
-        <img id="logo-html" src="img/logocss.png" width= 10%>
+        <img alt="logo-css" src="img/logocss.png" width= "140">
 
         <main>
             <section>
@@ -37,7 +41,8 @@
                 <p>
                     El CSS (Cascading Style Sheets), en español Hojas de Estilo en Cascada, fue desarrollado por W3C en 1996. <br>
                     Se le denomina Hojas de Estilos en Cascada porque las características se aplican de arriba a abajo mediante reglas que poseen un esquema prioritario. <br>
-                    Esta especificación es un lenguaje de diseño gráfico que se escribe dentro del código HTML del sitio web y, permite crear páginas de una manera más exacta y aplicarles estilos (colores, márgenes, formas, tipos de letras, etc.) por lo que se tiene mayor control de los resultados finales.
+                    Esta especificación es un lenguaje de diseño gráfico que se escribe dentro del código HTML del sitio web y, permite crear páginas de una manera más exacta y <br> 
+                    aplicarles estilos (colores, márgenes, formas, tipos de letras, etc.) por lo que se tiene mayor control de los resultados finales.
                 </p>
 
                 <p>
@@ -57,9 +62,10 @@
                         <li>CSS 3. Se publica en 2011 </li>
                    </ul>
                 </div>
+            </section>    
 
                 <section>
-                    <h4>CSS y HTML</h4>
+                    <h4>Relación CSS y HTML</h4>
                     <div>
                         <table>
                             <thead>
@@ -73,27 +79,50 @@
                                 <tr>
                                     <td>Selector de elemento/etiqueta</td>
                                     <td>Selecciona todos los elementos de HTML <br> del tipo/etiqueta especificada</td>
-                                    <td>p {regla} selecciona todos los elemetos con la etiqueta &lt;p &gt; </td>
+                                    <td>p{regla} selecciona todos los elemetos con la etiqueta &lt;p &gt; </td>
                                 </tr>
 
                                 <tr>
                                     <td>Selector de id (#)</td>
                                     <td>Selecciona el elemento epecificado con un id</td>
-                                    <td>#mi-id</th>
+                                    <td>#mi-id{regla}</td>
                                 </tr>
                                 
                                 <tr>
                                     <td>Selector de Clase</td>
                                     <td>Selecciona los elementos que tengan la clase especificada</td>
-                                    <td>.mi-clase</td>
+                                    <td>.mi-clase {regla}</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Selector de atributo</td>
+                                    <td>Selecciona los elementos con el atributo especificado</td>
+                                    <td> &lt;img <strong>[src]</strong>/&gt; {regla} </td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </section>
-            </section>
-        </main>
+
+                <section>
+                    <h5>Referencias</h5>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://rockcontent.com/es/blog/que-es-css/#:~:text=El%20CSS%20(Cascading%20Style%20Sheets,que%20poseen%20un%20esquema%20prioritario.">¿Qué es CSS?</a>
+                            </li>
+
+                            <li>
+                                <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics">Selectores CSS</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.conectasoftware.com/magazine/glosario/css/">Versiones CSS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <footer>Oscar José Hernández Sánchez</footer>
     </body>
-    <footer>Tarea HTML5</footer>
 </html>
